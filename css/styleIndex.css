@@ -1,0 +1,41 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0%;
+    padding: 0;
+    color: rebeccapurple;
+    max-width: 100%;
+    
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "sdLeft sdRight"
+    "slUp slUp";
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    column-gap: 1%;
+    row-gap: 6%;
+
+}
+
+.titulos{
+    grid-area: sdLeft;  
+    align-self: center; 
+    margin-left: 40dvw; 
+}
+
+.descrip{
+    grid-area: sdRight;
+    margin-right: 15dvw;
+}
+
+.titulos, .descrip{
+    padding: 2em 0.5em;
+}
+
+.slideup{
+    grid-area: slUp;
+}
