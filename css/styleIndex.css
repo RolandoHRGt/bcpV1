@@ -1,18 +1,23 @@
-*{
+* {
     font-family: 'Roboto Mono', monospace;
     margin: 0%;
     padding: 0;
-    color: rebeccapurple;
-    max-width: 100%;
-    
+    color: azure;
 }
 
-.container{
+body {
+    background-image: url(/img/imgBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0.11em);
+}
+
+.container {
     height: 100vh;
     display: grid;
-    grid-template-areas: 
-    "sdLeft sdRight"
-    "slUp slUp";
+    grid-template-areas:
+        "sdLeft sdRight"
+        "slUp slUp";
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -21,21 +26,22 @@
 
 }
 
-.titulos{
-    grid-area: sdLeft;  
-    align-self: center; 
-    margin-left: 40dvw; 
+.titulos {
+    grid-area: sdLeft;
+    align-self: center;
+    margin-left: 40dvw;
 }
 
-.descrip{
+.descrip {
     grid-area: sdRight;
     margin-right: 15dvw;
 }
 
-.titulos, .descrip{
+.titulos,
+.descrip {
     padding: 2em 0.5em;
 }
 
-.slideup{
+.slideup {
     grid-area: slUp;
 }
