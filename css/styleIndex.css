@@ -1,3 +1,41 @@
 *{
     font-family: 'Roboto Mono', monospace;
+    margin: 0%;
+    padding: 0;
+    color: rebeccapurple;
+    max-width: 100%;
+    
+}
+
+body{
+    height: 100%;
+    display: flexbox;
+    
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: 
+    "sdLeft"
+    "sdRight"
+    "slUp";
+}
+
+.titulos{
+    grid-area: sdLeft;    
+    background-color: red;
+}
+
+.descrip{
+    grid-area: sdRight;
+    background-color: blue;
+}
+
+.slideup{
+    grid-area: slUp;
+    background-color: aqua;
 }
