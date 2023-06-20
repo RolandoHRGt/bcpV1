@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(/img/imgBackground.jpg);
+    background-image: url(../img/fondoIndex.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(0.11em);
