@@ -8,7 +8,7 @@
 }
 
 .container {
-    background-imagen: url('/img/imgBackground.jpd');
+    background-image: url('/img/imgBackground.jpd');
     height: 100vh;
     display: grid;
     grid-template-areas:
