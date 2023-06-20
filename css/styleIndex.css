@@ -2,12 +2,19 @@
     font-family: 'Roboto Mono', monospace;
     margin: 0%;
     padding: 0;
-    color: rebeccapurple;
+    color:azure;
     max-width: 100%;
-    
 }
 
+body{
+    background-image: url(/img/imgBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0.11em);
+
+}
 .container {
+
     height: 100vh;
     display: grid;
     grid-template-areas:
@@ -16,7 +23,6 @@
     justify-content: center;
     align-content: center;
     justify-items: center;
-    column-gap: 1%;
     row-gap: 6%;
 
 }
@@ -24,12 +30,15 @@
 .titulos {
     grid-area: sdLeft;
     align-self: center;
-    margin-left: 40dvw;
+    margin-left: 25dvw;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .descrip {
     grid-area: sdRight;
     margin-right: 15dvw;
+    font-size: medium;
 }
 
 .titulos,
@@ -39,4 +48,7 @@
 
 .slideup {
     grid-area: slUp;
+    border-radius:5px;
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 10px;
 }
